@@ -9,6 +9,9 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
+	public String getChild() {
+		return "sample String";
+	}
 	public String getParent() {
 		return "sample String";
 	}
